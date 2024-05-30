@@ -57,4 +57,10 @@
 
 - 本项目`Python`和`C++`目录下均包含`detect`、`pose` 和 `segment`；
 - 按照各自目录下的 `README` 分别实现目标检测、关键点检测、实例分割 3 种任务。
+- [C++ api detect](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/detect)
+- [C++ api pose](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/pose)
+- [C++ api segment](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/segment)
+- [Python api detect](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/detect)
+- [Python api pose](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/pose)
+- [Python api segment](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/segment)
 
