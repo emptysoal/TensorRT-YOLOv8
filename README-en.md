@@ -66,4 +66,10 @@ docker pull nvcr.io/nvidia/tensorrt:22.04-py3
 ## Run
 
 - There are three directories, `detect`, `pose` and `segment`, in both `python` and `C++` directories 
-- Run as `README` under the `detect`, `pose` and `segment` directories respectively 
+- Run as `README` under the `detect`, `pose` and `segment` directories respectively
+- [C++ api detect](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/detect)
+- [C++ api pose](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/pose)
+- [C++ api segment](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/segment)
+- [Python api detect](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/detect)
+- [Python api pose](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/pose)
+- [Python api segment](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/segment)
