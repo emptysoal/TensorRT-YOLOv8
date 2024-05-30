@@ -1,4 +1,4 @@
-# TensorRT 部署 YOLOv8 检测、关键点、分割
+# TensorRT 部署 YOLOv8 目标检测、关键点检测、实例分割
 
 ## 一. 项目简介
 
