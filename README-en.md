@@ -20,7 +20,7 @@
 |             **pose**              |              **segment**              |
 | ![004_pose](assets/004_pose.jpeg) |    ![004_seg](assets/004_seg.jpeg)    |
 
-## inference speed
+## Inference speed
 
 |        | detect | pose  | segment |
 | :----: | :----: | :---: | :-----: |
