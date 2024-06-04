@@ -25,7 +25,7 @@
 |        | detect | pose  | segment |
 | :----: | :----: | :---: | :-----: |
 |  C++   |  4 ms  | 5 ms  |  8 ms   |
-| python | 15 ms  | 15 ms |  58 ms  |
+| python | 15 ms  | 15 ms |  27 ms  |
 
 - The inference time here includes pre-processing, model inference, and post-processing
 - The inference time here base on `x86_64 Linux ` ，`Ubuntu`，GPU is `GeForce RTX 2080 Ti`
