@@ -24,7 +24,7 @@
 |        | detect | pose  | segment |
 | :----: | :----: | :---: | :-----: |
 |  C++   |  4 ms  | 5 ms  |  8 ms   |
-| python | 15 ms  | 15 ms |  58 ms  |
+| python | 15 ms  | 15 ms |  27 ms  |
 
 - 这里的推理时间包含前处理、模型推理、后处理
 - 这里基于 `x86_64 Linux ` 服务器，`Ubuntu`系统，显卡为`GeForce RTX 2080 Ti`
