@@ -1,4 +1,4 @@
-# TensorRT deploy YOLOv8 detect, pose, segment
+# TensorRT deploy YOLOv8 detect, pose, segment, track
 
 ## Introduction
 
