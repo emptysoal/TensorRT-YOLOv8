@@ -20,12 +20,16 @@
 |             **pose**              |              **segment**              |
 | ![004_pose](assets/004_pose.jpeg) |    ![004_seg](assets/004_seg.jpeg)    |
 
-## Inference speed
+- ByteTrack
+
+![result](./assets/result.gif)
+
+## inference speed
 
 |        | detect | pose  | segment |
 | :----: | :----: | :---: | :-----: |
 |  C++   |  4 ms  | 5 ms  |  8 ms   |
-| python | 15 ms  | 15 ms |  27 ms  |
+| python | 15 ms  | 15 ms |  58 ms  |
 
 - The inference time here includes pre-processing, model inference, and post-processing
 - The inference time here base on `x86_64 Linux ` ，`Ubuntu`，GPU is `GeForce RTX 2080 Ti`
@@ -37,9 +41,9 @@
 - `TensorRT 8.0+`
 - `OpenCV 3.4.0+`
 
-**If the basic requirements are met, you can directly go to each directory and run each task**
+**If the basic requirements are met, you can directly go to each directory and run each task **
 
-**Environment construction can refer to the following:**
+**Environment construction can refer to the following: **
 
 2. If  `Linux x86_64`, `docker` is recommended 
 
@@ -66,10 +70,15 @@ docker pull nvcr.io/nvidia/tensorrt:22.04-py3
 ## Run
 
 - There are three directories, `detect`, `pose` and `segment`, in both `python` and `C++` directories 
-- Run as `README` under the `detect`, `pose` and `segment` directories respectively
+- Run as `README` under the `detect`, `pose` and `segment` directories respectively 
+
 - [C++ api detect](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/detect)
 - [C++ api pose](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/pose)
 - [C++ api segment](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/segment)
 - [Python api detect](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/detect)
 - [Python api pose](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/pose)
 - [Python api segment](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/segment)
+
+- [C++ api track](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/)
+
+- [Python api track](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python)

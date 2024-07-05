@@ -19,12 +19,16 @@
 |          **关键点检测**           |             **实例分割**              |
 | ![004_pose](assets/004_pose.jpeg) |    ![004_seg](assets/004_seg.jpeg)    |
 
+- ByteTrack目标跟踪
+
+![result](./assets/result.gif)
+
 ## 三. 推理速度
 
 |        | detect | pose  | segment |
 | :----: | :----: | :---: | :-----: |
 |  C++   |  4 ms  | 5 ms  |  8 ms   |
-| python | 15 ms  | 15 ms |  27 ms  |
+| python | 15 ms  | 15 ms |  58 ms  |
 
 - 这里的推理时间包含前处理、模型推理、后处理
 - 这里基于 `x86_64 Linux ` 服务器，`Ubuntu`系统，显卡为`GeForce RTX 2080 Ti`
@@ -57,6 +61,7 @@
 
 - 本项目`Python`和`C++`目录下均包含`detect`、`pose` 和 `segment`；
 - 按照各自目录下的 `README` 分别实现目标检测、关键点检测、实例分割 3 种任务。
+
 - [C++ api detect](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/detect)
 - [C++ api pose](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/pose)
 - [C++ api segment](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/segment)
@@ -64,3 +69,6 @@
 - [Python api pose](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/pose)
 - [Python api segment](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python/segment)
 
+- [C++ api track](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/C%2B%2B/)
+
+- [Python api track](https://github.com/emptysoal/TensorRT-YOLOv8/tree/main/python)
