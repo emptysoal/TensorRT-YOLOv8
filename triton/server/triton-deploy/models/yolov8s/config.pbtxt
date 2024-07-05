@@ -1,0 +1,41 @@
+platform: "tensorrt_plan"
+# max_batch_size: 1
+input [
+  {
+    name: "images"
+    data_type: TYPE_FP32
+    dims: [1, 3, 640, 640]
+  }
+]
+output [
+  {
+    name: "output0"
+    data_type: TYPE_FP32
+    dims: [1, 84, 8400]
+  }
+]
+# default_model_filename: "model.plan"
+instance_group [
+  {
+    count: 1
+    kind: KIND_GPU
+    gpus: [ 0 ]
+  }
+]
+# version_policy: {
+  # specific { versions: 1 }
+# }
+model_warmup  [
+  {
+    name: "zero_input"
+#     batch_size: 1
+    inputs: {
+      key: "images"
+      value: {
+        data_type: TYPE_FP32
+        dims: [1, 3, 640, 640]
+        zero_data: true
+      }
+    }
+  }
+]
