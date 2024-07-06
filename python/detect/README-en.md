@@ -1,6 +1,6 @@
 # TensorRT deploy YOLOv8 detect
 
-![_10020](output/_zidane.jpeg)
+![_10020](output/_zidane.jpg)
 
 ## Get onnx
 
