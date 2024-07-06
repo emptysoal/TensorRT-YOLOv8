@@ -1,6 +1,6 @@
 # YOLOv8 目标检测模型转 TensorRT
 
-![_field](output/zidane.jpg)
+![_field](output/_zidane.jpg)
 
 ## 导出ONNX模型
 
