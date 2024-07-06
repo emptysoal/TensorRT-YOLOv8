@@ -71,7 +71,7 @@ pip install cuda-python
 ### 模型转换
 
 1. 切换到当前项目目录下；
-
+2. 如果是自己数据集上训练得到的模型，记得更改 `config.py` 中的相关配置；
 3. 新建 `onnx_model`目录，并将已导出的 `onnx` 模型拷贝到 `onnx_model` 目录下
 4. 执行以下命令：
 
