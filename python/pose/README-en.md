@@ -38,6 +38,7 @@ opencv-python==4.9.0.80
 ```
 
 1. Switch to the current project directory;
+2. If the model is trained on your own dataset, remember to check `config.py`;
 3. Create `onnx_model` directory and put the exported `onnx` model in
 
 4. Run as follow:
