@@ -30,10 +30,11 @@ python export_onnx.py
 ## To TensorRT
 
 1. Switch to the current project directory;
-2. Confirm `cuda` and `tensorrt` path in  `CMakeLists.txt`
-3. Create `onnx_model` directory and put the exported `onnx` model in
+2. If the model is trained on your own dataset, remember to check `include/config.h`;
+3. Confirm `cuda` and `tensorrt` path in  `CMakeLists.txt`
+4. Create `onnx_model` directory and put the exported `onnx` model in
 
-4. Run as follow:
+5. Run as follow:
 
 ```bash
 mkdir build
