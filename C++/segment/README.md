@@ -38,10 +38,10 @@ path = model.export(format="onnx", simplify=True, device=0, opset=12, dynamic=Fa
 ## 转 TensorRT
 
 1. 切换到当前项目目录下；
-
-2. 确认 `CMakeLists.txt` 文件中 `cuda` 和 `tensorrt` 库的路径，与自己环境要对应，一般情况下是不需修改的；
-3. 新建 `onnx_model`目录，并将已导出的 `onnx` 模型拷贝到 `onnx_model` 目录下
-4. 依次执行：
+2. 如果是自己数据集上训练得到的模型，记得更改 `include/config.h` 中的相关配置；
+3. 确认 `CMakeLists.txt` 文件中 `cuda` 和 `tensorrt` 库的路径，与自己环境要对应，一般情况下是不需修改的；
+4. 新建 `onnx_model`目录，并将已导出的 `onnx` 模型拷贝到 `onnx_model` 目录下
+5. 依次执行：
 
 ```bash
 mkdir build
