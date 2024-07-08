@@ -14,7 +14,7 @@ pip install lap
 pip install cython_bbox
 ```
 
-3. 启动跟踪：
+3. 切换到当前目录，启动跟踪：
 
 ```bash
 python track.py --video ./videos/street.mp4
