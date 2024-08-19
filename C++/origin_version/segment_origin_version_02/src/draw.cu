@@ -42,4 +42,7 @@ void draw_mask(cv::Mat& img, float* mask){
     draw_mask_kernel<<<gridSize, blockSize>>>(imgDataDevice, maskDevice, h, w, color_b, color_g, color_r);
 
     cudaMemcpy(img.data, imgDataDevice, elements * sizeof(uchar), cudaMemcpyDeviceToHost);
+
+    cudaFree(imgDataDevice);
+    cudaFree(maskDevice);
 }
