@@ -24,7 +24,7 @@
 
 ![result](./assets/result.gif)
 
-## inference speed
+## Speed
 
 |        | detect | pose  | segment |
 | :----: | :----: | :---: | :-----: |
