@@ -1,6 +1,6 @@
 # YOLOv8  TensorRT  ByteTrack
 
-![street](videos/result.gif)
+![street](../assets/result.gif)
 
 
 
